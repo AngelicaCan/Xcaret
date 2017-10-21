@@ -1,0 +1,408 @@
+
+body, html {
+    background-color: #ebebeb;
+}
+
+.container-main{
+    width: 1250px;
+    margin:auto;
+}
+
+.navbar {
+    min-height: 40px;
+}
+
+.navbar-inicio {
+    background-color: black;
+    border-radius: 0px; 
+}
+
+.navbar-inicio a {
+    color:white;
+    font-size: 12px;
+    font-family: 'Abel', sans-serif;
+    text-transform: uppercase;
+    margin-right: 15px;
+    padding: 0px;
+}
+
+#bar-social {
+    padding-left: 10%;
+}
+
+.navbar-header.pull-right {
+    margin-right: 90px;
+    margin-top: 8px;
+}
+
+#logo-title {
+    font-family: 'Fredoka One', cursive;
+    font-size: 42px;
+    font-weight: bold;
+}
+#logo-description {
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 100%;
+    margin-top: -10px;
+    font-family: 'Abel', sans-serif;
+}
+
+.social {
+    padding-right: 17%;
+    padding-top: 20px;
+}
+.social a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+
+.bar-xcaret {
+    padding-left: 10%;
+}
+#bar-xcaret-navbar  {
+    margin-left: 0;
+    min-width: 84% !important;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    line-height: 140%;
+    font-family: 'Abel', sans-serif;
+}
+#bar-xcaret-navbar a {
+    padding: 0;
+    color: black; 
+    text-decoration: none !important;
+    font-size: 14px;
+    text-transform: uppercase;
+    height: 50px;
+}
+#bar-xcaret-navbar li {
+    width: 20%;
+    color: black; 
+    text-decoration: none !important;
+    text-align: center;
+    background-color: #ebebeb;
+    border: 1px solid black;
+}
+#bar-xcaret-navbar li:nth-child(1) a {
+    line-height: 50px;
+    color: white;
+}
+#bar-xcaret-navbar li:nth-child(1) {
+    background-color: black;
+}
+#bar-xcaret-navbar li:nth-child(1)::after {
+    border-bottom: 30px solid transparent;
+    border-left: 30px solid black;
+    border-top: 30px solid transparent;
+    content: "";
+    height: 0;
+    position: absolute;
+    right: -30px;
+    top: 0;
+    width: 0;
+    z-index: 100;
+}
+#bar-xcaret-navbar ul > li {
+    text-align: left;
+    width: 100%;
+}
+#bar-xcaret-navbar ul > li > a {
+    line-height: 10px !important;
+    padding: 7px 10px;
+}
+
+.title-li-navbar{
+margin: 10px 0;
+}
+
+.submenu {
+    color: black;
+    font-size: 12px;
+    line-height: 140%;
+    font-family: 'Abel', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-right: 10px;
+    padding: 0px;
+}
+
+#section-title {
+    background-color: #fff;
+    margin-top: 20px;
+    color: black !important;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 8px 0 !important;
+}
+#section-title .active {
+    font-weight: bold;
+    color: black;
+}
+#section-title a {
+    text-decoration: none !important;
+    color: black;
+}
+
+/* EMPIEZA CONTENIDO CENTRAL */
+/* El contenido central es donde esta ubicado galeria de imagenes, Video YT y Maps 360*/
+.main-container {
+    background-color: #ffffff;
+    color: black;
+    font-size: 16px;
+    line-height: 140%;
+    font-family: 'Abel', sans-serif;
+    padding-left: 10%;
+}
+#payment-banner {
+    border: solid 1px black;
+    margin-bottom: 20px;
+    text-align:center;
+}
+
+#payment-banner a {
+    font-weight: bold;
+    color: black;
+    text-decoration: underline;
+}
+#payment-banner p {
+    float: left;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+#payment-banner img {
+    width: 668px;
+}
+
+#multimedia-container {
+    width: 712px;
+    float:left;
+}
+
+#btn-quote {
+    margin-bottom: 20px;
+    margin-top: 5px;
+    background-color: black;
+    border-color: gray;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    width: 42%;
+    height: 55px;
+}
+
+#info-general {
+    margin-bottom: 20px;
+    float: left;
+    width: 712px;
+}
+
+#info-general h4 {
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+#attractive {
+    margin-bottom: 20px;
+}
+#attractive .media-heading{
+    font-weight: bold;
+    font-size:15px;
+
+}
+#attractive h4 {
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+#attractive img {
+    width: 310px; 
+    height: 215px;
+}
+
+
+#btn-multimedia > button {
+    margin-bottom: 20px;
+    margin-top: 5px;
+    background-color: black;
+    border-color: gray;
+    color: white;
+    font-size: 16px;
+    width: 50%;
+    height: 60px;
+    float: left;
+}
+
+.park-quote-container  {
+    color: black;
+    font-size: 12px;
+    line-height: 140%;
+    font-family: 'Abel', sans-serif;
+    margin-right: 0px;
+    padding: 0px;
+}
+
+#buy-here {
+    color: white;
+    background-color: black;
+    font-weight: bold !important;
+    text-align: center;
+}
+.buy-here-title {
+    padding-top: 5px;
+    font-size: 20px !important;
+}
+#regular-price{
+    text-decoration: line-through;
+}
+#online-price{
+    font-size: 17px !important;
+    font-weight: bold !important;
+
+}
+#btn-buy-here{
+    background-color: black;
+    border-color: gray;
+    color: white;
+    width: 100%
+}
+#restrictions{
+    font-size: 10px;
+    padding-top: 10px;
+    margin-top: 30px;
+    margin-left: -30px;
+    font-style: italic;
+}
+
+.why-booking-container{
+    padding-top: 5px;
+    font-size: 14px !important;
+    font-weight: bold;
+    text-align: center;
+}
+
+.why-booking-cell {
+    border: 1px solid black;
+    border-radius: 5px 5px 5px 5px;
+    height: 67px;
+    margin: 1px;
+    width: 73px;
+
+}
+
+.why-booking-logo {
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.why-booking-title {
+    color: black;
+    font-size: 10px;
+    line-height: 100%;
+    margin-bottom: 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 1250px;
+    height: auto;
+    font-size: 12px;
+    line-height: 140%;
+    font-family: 'Abel', sans-serif;
+    color:white;
+    background: #1a1a1a none repeat scroll 0 0;
+    margin:auto;
+}
+#footer_experiencias {
+
+    font-size: 25px;
+    line-height: 140%;
+    font-family: 'Comfortaa', cursive;
+    font-weight: bold;
+    color: white;
+}
+.footer-xcaret{
+    margin-top:20px;
+    text-align: center;
+    background: #1a1a1a;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer-xcaret img{
+    width: 150px;
+
+}
+
+.footer-xcaret-container-logo{
+    letter-spacing: -1px;
+    width: 80%;
+    margin: auto;
+}
+.footer-xcaret ul {
+    list-style-type: none;	
+    text-align:left;
+    font-size: 14px;
+    display: inline-block;
+    padding: 0 5px; 
+    margin-bottom: 20px;
+}
+.footer-xcaret li{
+    margin-top:20px;
+}
+.footer-xcaret-images {
+    line-height: 0px;
+}
+
+.site-map-title {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    font-size:16px;
+    margin-top: 20px;
+}
+
+.site-map-subtitle{
+    line-height: 0px;
+}
+.footer-bottom{
+    text-align: center;
+    background: #000000;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer-bottom ul{
+    text-align: left;
+    list-style-type: none;	
+    font-size: 14px;
+    line-height: 25px;
+    display: inline-block;
+    padding: 0 10px; 
+
+}
+#footer-bottom-phones {
+    margin-top:20px;
+    text-align:left;
+    margin-left: 120px;
+    font-weight: bold;
+    font-size: 16px;
+}
+#footer-bottom-leyend {
+    margin-top:15px;
+    text-align:left;
+    margin-left: 120px;
+    font-size: 14px;
+}
+
+.footer-bottom-margin {
+    margin-left: auto;
+    margin-right: auto;
+}
+
